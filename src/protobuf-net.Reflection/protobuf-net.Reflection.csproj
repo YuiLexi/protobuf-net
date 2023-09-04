@@ -7,7 +7,7 @@
     <LangVersion>10</LangVersion>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <Configurations>Debug;Release;VS</Configurations>
+    <Configurations>Debug;Release;VS;Unity</Configurations>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="google\**\*.proto" />

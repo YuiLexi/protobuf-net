@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <IsTestProject>false</IsTestProject>
+    <Configurations>Debug;Release;Unity</Configurations>
   </PropertyGroup>
 	
   <ItemGroup>

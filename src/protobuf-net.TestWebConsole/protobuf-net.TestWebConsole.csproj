@@ -6,6 +6,7 @@
     <RootNamespace>ProtoBuf.TestWebConsole</RootNamespace>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
     <IsTestProject>false</IsTestProject>
+    <Configurations>Debug;Release;Unity</Configurations>
   </PropertyGroup>
 
   <ItemGroup>

@@ -11,6 +11,7 @@
     <NoPackageAnalysis>true</NoPackageAnalysis>
     <DevelopmentDependency>true</DevelopmentDependency>
     <DefineConstants>$(DefineConstants);PLAT_NO_RECORDS;BUILD_TOOLS</DefineConstants>
+    <Configurations>Debug;Release;Unity</Configurations>
   </PropertyGroup>
 
   <ItemGroup>

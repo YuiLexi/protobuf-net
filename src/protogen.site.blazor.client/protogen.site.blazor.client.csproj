@@ -4,6 +4,7 @@
     <RazorLangVersion>3.0</RazorLangVersion>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
     <SignAssembly>false</SignAssembly>
+    <Configurations>Debug;Release;Unity</Configurations>
   </PropertyGroup>
   <ItemGroup>
     <!-- extends watching group to include *.razor files -->

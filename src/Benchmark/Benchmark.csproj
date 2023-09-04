@@ -9,6 +9,7 @@
     <DefineConstants Condition="'$(TargetFramework)'=='netcoreapp3.1' or '$(TargetFramework)'=='net6.0'">$(DefineConstants);INTRINSICS</DefineConstants>
     <RootNamespace>Benchmark</RootNamespace>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Configurations>Debug;Release;Unity</Configurations>
   </PropertyGroup>
 
   <ItemGroup>

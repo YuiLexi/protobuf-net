@@ -5,6 +5,7 @@
     <RootNamespace>ProtoBuf.Reflection.Test</RootNamespace>
     <NoWarn>$(NoWarn);xUnit1004</NoWarn>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <Configurations>Debug;Release;Unity</Configurations>
   </PropertyGroup>
 
   <ItemGroup>

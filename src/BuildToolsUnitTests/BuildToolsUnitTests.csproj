@@ -5,6 +5,7 @@
     <RootNamespace>BuildToolsUnitTests</RootNamespace>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
     <Nullable>enable</Nullable>
+    <Configurations>Debug;Release;Unity</Configurations>
   </PropertyGroup>
 
   <ItemGroup>

@@ -8,7 +8,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <FeatureServiceModelConfiguration>false</FeatureServiceModelConfiguration>
-    <Configurations>Debug;Release</Configurations>
+    <Configurations>Debug;Release;Unity</Configurations>
   </PropertyGroup>
   
   <PropertyGroup Condition="'$(TargetFramework)' == 'net462'">

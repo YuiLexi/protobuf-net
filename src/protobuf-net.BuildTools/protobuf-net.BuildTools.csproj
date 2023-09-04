@@ -12,6 +12,7 @@
     <NoPackageAnalysis>true</NoPackageAnalysis>
     <DevelopmentDependency>true</DevelopmentDependency>
     <DefineConstants>$(DefineConstants);BUILD_TOOLS</DefineConstants>
+    <Configurations>Debug;Release;Unity</Configurations>
   </PropertyGroup>
 
   <ItemGroup>

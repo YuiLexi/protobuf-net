@@ -6,7 +6,7 @@
     <TargetFrameworks>net462;netstandard2.0;netstandard2.1;net6.0</TargetFrameworks>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Configurations>Debug;Release</Configurations>
+    <Configurations>Debug;Release;Unity</Configurations>
     <LangVersion>10</LangVersion>
   </PropertyGroup>
   

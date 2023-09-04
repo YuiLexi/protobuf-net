@@ -5,7 +5,7 @@
     <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
 
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
-    <Configurations>Debug;Release;VS</Configurations>
+    <Configurations>Debug;Release;VS;Unity</Configurations>
     <TypeScriptToolsVersion>2.8</TypeScriptToolsVersion>
     <SignAssembly>false</SignAssembly>
     <UserSecretsId>f7c4472d-ea58-47e2-9129-489edcd48abe</UserSecretsId>

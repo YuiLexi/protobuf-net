@@ -2,7 +2,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFrameworks>net6.0</TargetFrameworks>
-    <Configurations>Debug;Release;VS</Configurations>
+    <Configurations>Debug;Release;VS;Unity</Configurations>
     <PackAsTool>true</PackAsTool>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <AssemblyName>protogen</AssemblyName>

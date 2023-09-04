@@ -3,7 +3,7 @@
     <VersionPrefix>$(ProtoGenVersion)</VersionPrefix>
     <OutputType>Exe</OutputType>
     <TargetFrameworks>net462;net6.0</TargetFrameworks>
-    <Configurations>Debug;Release;VS</Configurations>
+    <Configurations>Debug;Release;VS;Unity</Configurations>
     <AssemblyName>protogen</AssemblyName>
     <Title>protobuf-net command-line "global tool" for .NET code-generation from .proto schema files</Title>
     <GrpcTools>false</GrpcTools>

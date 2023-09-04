@@ -841,7 +841,7 @@ namespace ProtoBuf.Meta
         //[Obsolete("Please use " + nameof(NullWrappedValue) + " with " + nameof(NullWrappedValueGroup) + "; see the documentation for " + nameof(NullWrappedValueAttribute) + " for more information.")]
         public bool SupportNull
         {
-            get { return HasFlag(OPTIONS_SupportNull); }
+            get { return true; }
             set { SetFlag(OPTIONS_SupportNull, value); }
         }
 
@@ -875,11 +875,11 @@ namespace ProtoBuf.Meta
 
         /// <see href="https://github.com/protobuf-net/protobuf-net/blob/main/docs/nullwrappers.md"/>
         internal bool HasExtendedNullSupport() => SupportNull || NullWrappedValueGroup || NullWrappedValue;
-        
+
         /// <see href="https://github.com/protobuf-net/protobuf-net/blob/main/docs/nullwrappers.md"/>
         /// <remarks>NullWrappers are needed **only** for items of collections</remarks>
         internal bool RequiresExtraLayerInSchema() => ItemType is not null && HasExtendedNullSupport();
-        
+
         /// <summary>
         /// Requires `group` to be placed on original valueMember level
         /// </summary>

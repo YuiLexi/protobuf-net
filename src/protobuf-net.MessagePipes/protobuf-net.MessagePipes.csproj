@@ -8,6 +8,7 @@
     <Title>protobuf-net.MessagePipes</Title>
     <Description>Provides a simple message-pipe using protobuf payloads</Description>
     <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings>
+    <Configurations>Debug;Release;Unity</Configurations>
   </PropertyGroup>
 
   <ItemGroup>
